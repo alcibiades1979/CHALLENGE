@@ -238,8 +238,8 @@ main {
 }
 .comision-table--date p {
     font-size: 1.2rem;
-    line-height: 1.5rem;
     font-weight: 300;
+    line-height: 1.5rem;
     color: var(--warm-black);
 }
 .main-comision-table{
