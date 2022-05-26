@@ -326,12 +326,12 @@ main {
     margin: 0 auto;
     margin-top: 15px;
     padding: 8px;
-    background-color: var(--soft-orange);
+    background-color: #E7F5FF;
     border-radius: 8px;
 }
 .comision-table--date p {
     font-size: 1.2rem;
     line-height: 1.5rem;
     font-weight: 300;
-    color: #1A9AF7;
+    color: var(--warm-black);
 }
