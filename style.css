@@ -514,7 +514,7 @@
                             color: #757575;
                         }
                         .plans-container--card {
-                            position: reltive;
+                            position: relative;
                             width: 70%;
                             min-width: 230px;
                             max-width: 300px;
