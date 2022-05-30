@@ -466,7 +466,7 @@
                             background-position: center;
                             background-repeat: no-repeat;
                         }
-                        .bitoin-img-container {
+                        .bitcoin-img-container {
                             width: 100%;
                             min-width: 320px;
                             height: 50vh;
@@ -477,7 +477,7 @@
                             text-align: center;
                         }
 
-                        .bitoin-img-container h2{
+                        .bitcoin-img-container h2{
                             padding-top: 60px;
                             font-size: 2.4rem;
                             font-weight: bold;
