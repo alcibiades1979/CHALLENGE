@@ -520,28 +520,27 @@
                         
                         .plans-container--slider {
                             display: flex;
-                            gap: 25px;
-                            height: 316px;
+                            height: 320x;
                             overflow-x: scroll;
                             overscroll-behavior-x: contain;
-                            scroll-snap-type: proximity;
+                            scroll-snap-type: x proximity;
                         }
                         
                         .plans-container--card {
                             position: relative;
                             scroll-snap-align: center;
                             width: 70%;
-                            min-width: 230px;
+                            min-width: 190px;
                             max-width: 300px;
                             height: 250px;
-                            margin: 50px auto 0;
+                            margin: 50px 5px 0;
                             padding: 0 15px;
                             background-color: var(--just-white);
                             border-radius: 15px;
                             box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
                         }
                         
-                        .recommended {
+                        .plans-container--card .recommended {
                             position: absolute;
                             width: 120px;
                             height: 31px;
@@ -550,6 +549,7 @@
                             background-color: var(--bitcoin-orange);
                             border-radius: 8px;
                             color: var(--just-white);
+                            margin: 0;
                             padding: 8px;
                         }
                         
@@ -577,10 +577,11 @@
                         .plan-card--saving {
                             font-size: 1.2rem;
                             color: #757575;
+                            padding-top: 0;
                         }
                         
                         .plan-card--ca {
-                            width: 150px;
+                            width: 151px;
                             height: 48px;
                             margin-top: 20px;
                             background-color: #faf8f7;
@@ -592,6 +593,17 @@
                             color: black;
                             font-family: "DM sans", sans-serif;
                         }
+                        /*agregado para scrollbar */
+                        
+                        .plans-container--slider::-webkit-scrollbar {
+                            background-color: var(--soft-orange);
+                            height: 3px;
+                        }
+                        
+                        .plans-container--slider::-webkit-scrollbar-thumb {
+                            background-color: var(--bitcoin-orange);
+                        }
+                        /*sigue codigo clase */
                         
                         .plan-card--ca span {
                             display: inline-block;
