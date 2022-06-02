@@ -1,3 +1,9 @@
+.main-tables-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
 .product-cards--container {
     display: flex;
     flex-wrap: wrap;
