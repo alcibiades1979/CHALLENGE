@@ -480,7 +480,7 @@
                         }
                         
                         .bitcoin-img-container h2 {
-                            padding-top: 60px;
+                            padding-top: 50px;
                             font-size: 2.4rem;
                             font-weight: bold;
                             line-height: 2.6rem;
@@ -496,7 +496,7 @@
                         
                         .plans--title {
                             width: 90%;
-                            min-width: 288px;
+                            min-width: 320px;
                             height: auto;
                             margin-top: 0 auto;
                             margin-bottom: 50px;
